@@ -1,11 +1,10 @@
-## WELCOM TO MEETUPRADAR 📃🚀🎯
+## WELCOM TO MEETUPRADAR API 📃🚀🎯
 
 MeetupRadar is an open-source web app that allows users to see the location of tech meetups in their area. Using a geocoding API to convert addresses to coordinates. Users can also search for meetups based on keywords, location, or date range using the search bar.
 
 ## Features
 
-- ⚡️ Next.js 13
-- ⚛️ React 18
+- ⚡️NodeJs
 - ⛑ TypeScript
 - 📏 ESLint — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
@@ -47,17 +46,6 @@ Open `http://localhost:3000` with your browser to see the result.
 - `yarn type-check` — Validate code using TypeScript compiler.
 - `yarn lint` — Runs ESLint for all files in the `src` directory.
 - `yarn format` — Runs Prettier for all files in the `src` directory.
-
-### Path Mapping
-
-TypeScript are pre-configured with custom path mappings. To import components or files, use the `@` prefix.
-
-```tsx
-import { Button } from '@/components/Button';
-
-// To import images or other files from the public folder
-import avatar from '@/public/avatar.png';
-```
 
 ### Switch to Yarn/npm
 
